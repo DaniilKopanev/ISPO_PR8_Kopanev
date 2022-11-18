@@ -1,0 +1,23 @@
+﻿<Window x:Class="ISPO_PR8_Kopanev.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ISPO_PR8_Kopanev"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="475" Width="698">
+    <Grid Margin="0,0,0,-6">
+        <Button Content="Button" HorizontalAlignment="Left" Margin="23,412,0,0" VerticalAlignment="Top" Height="24" Width="267"/>
+        <TextBox x:Name="x" HorizontalAlignment="Left" Margin="23,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="183"/>
+        <TextBox x:Name="y" HorizontalAlignment="Left" Margin="157,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133" Height="183"/>
+        <TextBox x:Name="x0" HorizontalAlignment="Left" Margin="157,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"/>
+        <TextBox x:Name="a"  HorizontalAlignment="Left" Margin="156,163,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"/>
+        <TextBox x:Name="dx"  HorizontalAlignment="Left" Margin="156,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="133"/>
+        <TextBox x:Name="xk" HorizontalAlignment="Left" Margin="156,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="134"/>
+        <Label Content="X0" HorizontalAlignment="Left" Margin="129,56,0,0" VerticalAlignment="Top"/>
+        <Label Content="A" HorizontalAlignment="Left" Margin="129,155,0,0" VerticalAlignment="Top"/>
+        <Label Content="Dx" HorizontalAlignment="Left" Margin="129,124,0,0" VerticalAlignment="Top"/>
+        <Label Content="Xk" HorizontalAlignment="Left" Margin="129,90,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
